@@ -23,8 +23,8 @@ public class UnaryCalculatorApp {
         UnaryCalculator clerk = new UnaryCalculator();
         System.out.println("Starting with = " + clerk.getResult());
 
-        String inputFileName = "src/main/java/myResources/" + args[0];
-        String outputFileName = "src/main/java/myResources/" + args[1];
+        String inputFileName = "src/main/resources/" + args[0];
+        String outputFileName = "src/main/resources/" + args[1];
 
         Scanner input = null;
         PrintWriter pw = null;
